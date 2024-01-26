@@ -36,7 +36,7 @@ public class PigLatin {
     }    
           return -1;
     }
-
+    }
     public String pigLatin(String sWord) {
         //precondition: sWord is a valid String of length greater than 0
         //postcondition: returns the pig latin equivalent of sWord
@@ -55,4 +55,4 @@ public class PigLatin {
         return sWord.substring(findFirstVowel(sWord)) + sWord.substring(0,findFirstVowel(sWord)) + "ay";
     }
     }
-//end PigLatin class
+}//end PigLatin class
