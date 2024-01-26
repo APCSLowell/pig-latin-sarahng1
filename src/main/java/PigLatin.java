@@ -50,8 +50,9 @@ public class PigLatin {
     } else if (sWord.charAt(0) == 'a' || sWord.charAt(0) == 'e' || sWord.charAt(0) == 'i' || sWord.charAt(0) == 'o' || sWord.charAt(0) == 'u') {
         // Word begins with a vowel
         return sWord + "way";
-    } else 
+    } else {
         // Move leading consonants to the end
         return sWord.substring(findFirstVowel(sWord)) + sWord.substring(0,findFirstVowel(sWord)) + "ay";
-    }    
+    }   
+    }
 //end PigLatin class
