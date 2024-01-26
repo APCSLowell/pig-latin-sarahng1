@@ -34,8 +34,9 @@ public class PigLatin {
     if (sWord.charAt(i) == 'a' || sWord.charAt(i) == 'e' || sWord.charAt(i) == 'i' || sWord.charAt(i) == 'o' || sWord.charAt(i) == 'u') {
       return i ;
     }    
-          return -1;
+          
     }
+	    return -1;
     }
     public String pigLatin(String sWord) {
         //precondition: sWord is a valid String of length greater than 0
